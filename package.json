@@ -1,0 +1,25 @@
+{
+  "name": "conditioner-boilerplate-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rikschennink/conditioner-boilerplate-browserify.git"
+  },
+  "dependencies": {
+    "conditioner-core": "^2.1.0"
+  },
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server ./dist/",
+    "build": "node browserify"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "escape-string-regexp": "^1.0.5",
+    "http-server": "^0.10.0",
+    "node-stream": "^1.7.0"
+  },
+  "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
+  "license": "MIT"
+}
